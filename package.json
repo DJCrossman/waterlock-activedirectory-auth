@@ -1,22 +1,23 @@
 {
-  "name": "waterlock-local-auth",
-  "version": "v0.1.2-rc1",
-  "description": "local authentication for waterlock",
+  "name": "waterlock-activedirectory-auth",
+  "version": "0.0.1",
+  "description": "ActiveDirectory authentication for waterlock",
   "main": "index.js",
   "scripts": {
     "test": "make test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/davidrivera/waterlock-local-auth"
+    "url": "https://github.com/djcrossman/waterlock-activedirectory-auth"
   },
   "keywords": [
     "waterlock",
-    "local",
     "authentication",
-    "sails"
+    "sails",
+    "activedirectory",
+    "ldap"
   ],
-  "devDependencies":{
+  "devDependencies": {
     "mocha": "*",
     "should": "*",
     "proxyquire": "*",
@@ -24,27 +25,28 @@
     "istanbul": "*",
     "jshint": "*"
   },
-  "dependencies":{
+  "dependencies": {
+    "activedirectory": "^0.7.2",
     "bcrypt": "~0.8.5",
-    "lodash": "~3.10.0",
-    "moment": "~2.10.6",
-    "nodemailer": "1.4.0",
     "jade": "~1.11.0",
     "jwt-simple": "~0.3.0",
-    "node-uuid": "~1.4.2"
+    "lodash": "~3.10.0",
+    "moment": "2.11.2",
+    "node-uuid": "~1.4.2",
+    "nodemailer": "1.4.0"
   },
-  "author": "David Rivera <david.r.rivera193@gmail.com>",
+  "author": "David Crossman <david@crossman.io>",
   "contributors": [
     {
-      "name": "David Rivera",
-      "email": "david.r.rivera193@gmail.com"
+      "name": "David Crossman",
+      "email": "david@crossman.io"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/davidrivera/waterlock-local-auth/issues"
+    "url": "https://github.com/djcrossman/waterlock-activedirectory-auth/issues"
   },
-  "homepage": "https://github.com/davidrivera/waterlock-local-auth",
+  "homepage": "https://github.com/djcrossman/waterlock-activedirectory-auth",
   "preferGlobal": false,
   "engines": {
     "node": ">=0.10"
