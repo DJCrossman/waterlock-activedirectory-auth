@@ -1,6 +1,6 @@
 {
   "name": "waterlock-activedirectory-auth",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "ActiveDirectory authentication for waterlock",
   "main": "index.js",
   "scripts": {
