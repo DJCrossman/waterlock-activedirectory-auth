@@ -1,6 +1,6 @@
 {
   "name": "waterlock-activedirectory-auth",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "ActiveDirectory authentication for waterlock",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "coveralls": "*",
     "istanbul": "*",
     "jshint": "*",
-    "mocha": "*",
+    "mocha": "^5.0.1",
     "proxyquire": "*",
     "should": "*"
   },
