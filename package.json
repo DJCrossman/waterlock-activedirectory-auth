@@ -1,6 +1,6 @@
 {
   "name": "waterlock-activedirectory-auth",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "ActiveDirectory authentication for waterlock",
   "main": "index.js",
   "scripts": {
@@ -18,16 +18,16 @@
     "ldap"
   ],
   "devDependencies": {
-    "mocha": "*",
-    "should": "*",
-    "proxyquire": "*",
     "coveralls": "*",
     "istanbul": "*",
-    "jshint": "*"
+    "jshint": "*",
+    "mocha": "*",
+    "proxyquire": "*",
+    "should": "*"
   },
   "dependencies": {
     "activedirectory": "^0.7.2",
-    "bcrypt": "~0.8.5",
+    "bcrypt": "~0.8.3",
     "jade": "~1.11.0",
     "jwt-simple": "~0.3.0",
     "lodash": "~3.10.0",
